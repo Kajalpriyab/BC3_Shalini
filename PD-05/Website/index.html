@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fist Website Dapp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+<script src="index.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<!------ Include the above in your HEAD tag ---------->
+</head>
+
+<body>
+<div class="navbar navbar-expand-md navbar-dark bg-dark mb-4" role="navigation">
+    <a class="navbar-brand" href="#">Shalini's Simple Storage</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/web3assignments/BC3_Shalini" target="_blank">Github</a>
+            </li>   
+    </div>
+</div>
+
+<main role="main" class="container">
+    <div class="jumbotron text-center">
+        <h1>Simple Storage</h1>
+        <p class="lead text-info">Sla nummers op en haal ze op</p>
+        <a href="http://fontenele.github.io/bootstrap-navbar-dropdowns/">Github</a>
+    </div>
+</main>
+
+<section class="container">
+    <div class="left-half">
+      <article>
+      <h3>Send storage numbers</h3>
+        <label for="numberstored">numberstored: </label><input id="numberstored" type="text"/>
+        <button id="submit" class="btn btn-pink" onclick="storeNumbers()">Verstuur</button>
+    </div>
+</article>
+</div>
+
+<div class="right-half">
+    <article>
+      <h3>Get the storage numbers</h3>
+     <button id="send" class="btn btn-pink" onclick="getNumbers()">Ophalen</button>
+     <td>this is the stored number:</td>
+       <td>
+        <label id="Numberss">
+      </td>
+    </div>
+  </div>
+</article>
+</div>
+</section>
+</body>
+</html>
