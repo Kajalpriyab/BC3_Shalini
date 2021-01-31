@@ -1,0 +1,2 @@
+Hi all i made a dapp called Shalini Utopia. I have tried to implement information from the lessons and this is a demo of what i made with the remaining time i had. 
+this decentralized application can always be improved but i think it looks and feels like a nice and simple example.
